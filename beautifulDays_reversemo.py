@@ -21,7 +21,7 @@ def beautifulDays(i,j,k):
     l2.append(q)
     
   for r in range(0,len(l2)):
-    if(abs(l2[r]-l1[r])%k==0):
+    if((abs(l2[r]-l1[r]))%k==0):
       l3.append(l2[r])
   #print(l3)      
   return (len(l3))
