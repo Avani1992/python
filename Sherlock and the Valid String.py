@@ -37,7 +37,7 @@ def isValid(s):
       return "No"
   else:
     for q in l3:
-      if(q==(current+1) or q==(current-1)):
+      if(q==(current+1) or q==(current-1) or q==1):
           return "Yes"
       else:
           return "No"
