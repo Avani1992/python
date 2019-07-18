@@ -23,7 +23,7 @@ def shopping(x,y,s):
       elif(i+j<=s):
         l1.append(i+j)
       else:
-        pass
+        l1.append(-1)
   print(max(l1))
   
 shopping(a,b,c)  
