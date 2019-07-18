@@ -11,9 +11,9 @@ def beautifulDays(i,j,k):
     no=p
     reverse=0
     while(no>0):
-        r=no%10
-        reverse=reverse*10+r
-        no=no/10
+        r=int(no%10)
+        reverse=int((reverse*10)+r)
+        no=int(no/10)
         if(no==0):
           l1.append(reverse)
    
