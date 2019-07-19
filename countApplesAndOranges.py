@@ -16,24 +16,19 @@ oranges=[-5,-2,2]
 def countApplesAndOranges(s, t, a, b, apples, oranges):
   l1=[]
   l2=[]
-  for i in apples:
-    l1.append(i+a)
-  for j in oranges:
-    l2.append(j+b)
-  #print(l1)
-  #print(l2)
-  for k in l1:
-    if(k in range(s,t)):
-      pass
+ for i in apples:
+    if((i+a) in range(s,t+1)):
+      l1.append(i)
     else:
-      l1.remove(k)
+      pass
   print(len(l1))
-  for p in l2:
-    if(p in range(s,t)):
-      pass
+  for j in oranges:
+    if((j+b) in range(s,t+1)):
+       l2.append(j) 
     else:
-      l2.remove(p)
+      pass
   print(len(l2))
+  
   
   
 countApplesAndOranges(8,12,5,12,apples,oranges)
