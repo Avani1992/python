@@ -1,0 +1,5 @@
+f1=open("honest.png","rb")
+f2=open("honest1.png","wb")
+byte=f1.read()
+f2.write(byte)
+print("File written...")
