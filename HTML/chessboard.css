@@ -1,0 +1,28 @@
+body
+{
+background:pink;
+}
+h1
+{
+color:red;
+}
+table
+{
+border:7px solid black;
+margin:70px auto;
+
+}
+td
+{
+height:50px;
+width:50px;
+padding:0px;
+}
+#white
+{
+background:white;
+}
+#black
+{
+background:black;
+}
