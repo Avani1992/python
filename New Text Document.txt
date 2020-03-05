@@ -1,0 +1,3 @@
+check python: py --version
+install django in cmd:pip install django
+check django:py -m django --version
